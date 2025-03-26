@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 0.8rem;
+}
+
+.main__container {
+  background-color: hsl(0, 0%, 100%);
+  width: 500px;
+  border-radius: 15px;
+  padding: 1.5rem;
+}
+@media screen and (max-width: 400px) {
+  .main__container {
+    width: 100%;
+  }
+}
+
+h1 {
+  margin-bottom: 0.8rem;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  margin-bottom: 0.8rem;
+}
+
+.preparation__container {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+li {
+  margin-left: 1.5rem;
+  padding-left: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+h4 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 0.8rem;
+}
+
+.preparation__heads {
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 0.8rem;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ingredients__container {
+  margin-bottom: 1.5rem;
+}
+
+.instructions__container {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.instruction__heads {
+  font-weight: bold;
+}
+
+.nutrition__container {
+  margin-top: 1.5rem;
+  list-style: none;
+}
+
+.nutrition__container li {
+  border-bottom: 1px solid gray;
+}
+
+.nutrition__container div {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.8rem;
+}
+.nutrients__values {
+  color: hsl(14, 45%, 36%);
+}
